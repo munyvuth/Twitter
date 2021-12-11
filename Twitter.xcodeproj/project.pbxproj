@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		331CF8532765665A00BA82CB /* TwitterPart1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 331CF8522765665A00BA82CB /* TwitterPart1.gif */; };
 		33F4224A276476AA005584D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F42249276476AA005584D9 /* LoginViewController.swift */; };
 		33F4224D27647DFB005584D9 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4224C27647DFA005584D9 /* HomeTableViewController.swift */; };
 		33F4225127648C1B005584D9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 33F4225027648C1B005584D9 /* AlamofireImage */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		331CF8522765665A00BA82CB /* TwitterPart1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = TwitterPart1.gif; path = ../../../Desktop/TwitterPart1.gif; sourceTree = "<group>"; };
 		33F42249276476AA005584D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		33F4224C27647DFA005584D9 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		33F4225327648EE7005584D9 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 		6EBCF52421DF07FC00451C03 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
-				331CF8522765665A00BA82CB /* TwitterPart1.gif */,
 				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
 				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
 				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
@@ -172,7 +169,6 @@
 				6EBCF54E21E71F9400451C03 /* Launch Screen.storyboard in Resources */,
 				37D29B8621F90E3400984A88 /* Assets.xcassets in Resources */,
 				6EBCF52B21DF07FC00451C03 /* Main.storyboard in Resources */,
-				331CF8532765665A00BA82CB /* TwitterPart1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
