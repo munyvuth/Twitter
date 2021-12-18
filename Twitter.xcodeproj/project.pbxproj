@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3379CA4C276D520800AC13F9 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379CA4B276D520800AC13F9 /* ComposeViewController.swift */; };
 		33F4224A276476AA005584D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F42249276476AA005584D9 /* LoginViewController.swift */; };
 		33F4224D27647DFB005584D9 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4224C27647DFA005584D9 /* HomeTableViewController.swift */; };
 		33F4225127648C1B005584D9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 33F4225027648C1B005584D9 /* AlamofireImage */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3379CA4B276D520800AC13F9 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		33F42249276476AA005584D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		33F4224C27647DFA005584D9 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		33F4225327648EE7005584D9 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				33F42249276476AA005584D9 /* LoginViewController.swift */,
 				33F4224C27647DFA005584D9 /* HomeTableViewController.swift */,
 				33F4225327648EE7005584D9 /* TweetCell.swift */,
+				3379CA4B276D520800AC13F9 /* ComposeViewController.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				33F4224D27647DFB005584D9 /* HomeTableViewController.swift in Sources */,
 				33F4224A276476AA005584D9 /* LoginViewController.swift in Sources */,
 				33F4225427648EE7005584D9 /* TweetCell.swift in Sources */,
+				3379CA4C276D520800AC13F9 /* ComposeViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
 			);

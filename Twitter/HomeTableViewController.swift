@@ -15,13 +15,15 @@ class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        loadTweets()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        loadTweets()
     }
 
     func loadTweets() {
@@ -64,9 +66,13 @@ class HomeTableViewController: UITableViewController {
         let url = URL(string: profilePath)
         
         cell.profileImageView.af.setImage(withURL: url!)
+        cell.setFavorite(tweet["favorited"] as! Bool)
+        cell.tweetId = tweet["id"] as! Int
+        cell.setRetweet(tweet["retweeted"] as! Bool)
         
         return cell
     }
+    
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
